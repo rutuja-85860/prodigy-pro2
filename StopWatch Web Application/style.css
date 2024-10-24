@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+
+body {
+  background-color: #1d77b3;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  padding: 25px;
+  width: 650px;
+  border-radius: 15px;
+  text-align: center;
+}
+#stopwatchDuration {
+  font-size: 55px;
+  color: white;
+  font-weight: bold;
+
+}
+.lapbutton {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.lapbutton button {
+  height: 45px;
+  width: 25%;
+  border-radius: 5px;
+  background-color: rgb(146, 255, 255);
+  border: none;
+  outline: none;
+  padding: 5px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 22px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+#laps {
+  height: 200px;
+  padding: 10px;
+  overflow: auto;
+}
+#laps li {
+  font-size: 22px;
+  padding: 10px;
+  color: wheat;
+}
+#stopbtn,
+#reset {
+  background: #f44336;
+}
